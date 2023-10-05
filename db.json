@@ -1,0 +1,166 @@
+{
+  "authuser": {
+    "id": "000000",
+    "name": "Administrador",
+    "permissions": {
+      "atendimento": true,
+      "orcamento": true,
+      "pedido": true,
+      "separacao": true,
+      "faturamento": true,
+      "filiais": ["@@@@"]
+    }
+  },
+  "pausrcolumns": {},
+  "GetConfiguracaoFases": {
+    "5": {
+      "dsfase": "Pedido de venda em aberto",
+      "hrurgent": "0000",
+      "hralert": "0010"
+    },
+    "9": {
+      "dsfase": "Pedido de venda liberado",
+      "hrurgent": "",
+      "hralert": ""
+    }
+  },
+  "GetStatusPedidos": {
+    "pedidos": [
+      {
+        "idfilial": "",
+        "filial": "",
+        "item": "000002",
+        "ped": "000002",
+        "orcamento": "",
+        "atendimento": "",
+        "type": "PED",
+        "tipo": "Pedido",
+        "createdate": "20220223",
+        "updatedate": "20220223",
+        "createuser": "Administrador",
+        "updateuser": "Administrador",
+        "descriptionstatus": "Pedido de venda liberado",
+        "idstatus": "9",
+        "idcliente": "000001",
+        "cliente": "JFR TECNOLOGIA",
+        "cidcliente": "SANTO ANDRE",
+        "estcliente": "SP",
+        "lojacli": "01",
+        "condpag": "A VISTA",
+        "transportadora": "PADRAO",
+        "tpcliente": "F",
+        "seller": "VENDEDOR PADRAO",
+        "hratu": "21:43:51",
+        "agrupanf": "Não",
+        "origem": "5",
+        "history": [
+          {
+            "ped": "000002",
+            "orcamento": "",
+            "atendimento": "",
+            "type": "PED",
+            "createdate": "20220223",
+            "updatedate": "20220223",
+            "hratu": "21:43:51",
+            "createuser": "Administrador",
+            "updateuser": "Administrador",
+            "descriptionstatus": "Pedido de venda liberado",
+            "idstatus": "9"
+          },
+          {
+            "ped": "000002",
+            "orcamento": "",
+            "atendimento": "",
+            "type": "PED",
+            "createdate": "20220223",
+            "updatedate": "20220223",
+            "hratu": "21:42:23",
+            "createuser": "Administrador",
+            "updateuser": "Administrador",
+            "descriptionstatus": "Pedido de venda em aberto",
+            "idstatus": "5"
+          }
+        ]
+      },
+      {
+        "idfilial": "",
+        "filial": "",
+        "item": "000003",
+        "ped": "000003",
+        "orcamento": "",
+        "atendimento": "",
+        "type": "PED",
+        "tipo": "Pedido",
+        "createdate": "20220223",
+        "updatedate": "20220223",
+        "createuser": "Administrador",
+        "updateuser": "Administrador",
+        "descriptionstatus": "Pedido de venda liberado",
+        "idstatus": "9",
+        "idcliente": "000001",
+        "cliente": "JFR TECNOLOGIA",
+        "cidcliente": "SANTO ANDRE",
+        "estcliente": "SP",
+        "lojacli": "01",
+        "condpag": "A VISTA",
+        "transportadora": "PADRAO",
+        "tpcliente": "F",
+        "seller": "VENDEDOR PADRAO",
+        "hratu": "21:43:51",
+        "agrupanf": "Não",
+        "origem": "5",
+        "history": [
+          {
+            "ped": "000003",
+            "orcamento": "",
+            "atendimento": "",
+            "type": "PED",
+            "createdate": "20220223",
+            "updatedate": "20220223",
+            "hratu": "21:43:51",
+            "createuser": "Administrador",
+            "updateuser": "Administrador",
+            "descriptionstatus": "Pedido de venda liberado",
+            "idstatus": "9"
+          },
+          {
+            "ped": "000003",
+            "orcamento": "",
+            "atendimento": "",
+            "type": "PED",
+            "createdate": "20220223",
+            "updatedate": "20220223",
+            "hratu": "21:42:23",
+            "createuser": "Administrador",
+            "updateuser": "Administrador",
+            "descriptionstatus": "Pedido de venda em aberto",
+            "idstatus": "5"
+          }
+        ]
+      }
+    ],
+    "count": 2,
+    "countTotPed": 1,
+    "countTotVol": 1
+  },
+  "PACHARTSDATA": {
+    "piechart": [],
+    "kendoareachart": [
+      {
+        "name": "Pedido",
+        "data": [0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      },
+      {
+        "name": "Orçamento",
+        "data": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      },
+      {
+        "name": "Atendimento",
+        "data": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+      }
+    ],
+    "quantitywidget": 0,
+    "quantityfinishedwidget": 0,
+    "percentagefinisheddwidget": 0
+  }
+}
